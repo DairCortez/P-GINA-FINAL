@@ -1,150 +1,198 @@
-/******************************************
-    Version: 1.0
-/****************************************** */
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+/* only small desktops */
+/* tablets */
+@media (min-width: 992px) and (max-width: 1190px) {
+	.countdown{
+		height: 285px;
+	}
+	.top-header .navbar .navbar-collapse ul li a{
+		font-size: 14px;
+	}
+	.lbox-details h2{
+		font-size: 26px;
+	}
+	.right-top ul li a{
+		padding: 0px 15px;
+	}
+}
+/* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-	#mainNav {
-		background-color: #333333;
+	.top-header .navbar .navbar-collapse ul li a{
+		padding: 5px 15px;
 	}
-	.navbar-dark .navbar-brand{
-		width: 55%;
-	}
-	.navbar-dark .navbar-nav .nav-link::after{
-		display: none;
-	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
-	}
-	.heading h1{
-		font-size: 28px;
-	}
-	.heading p{
-		font-size: 14px;
-	}
-	.cd-headline.clip span{
-		font-size: 20px;
-	}
-	.section-title h3{
-		font-size: 28px;
-	}
-	.section-title p{
-		font-size: 14px;
-	}
-	#clouds{
-		margin-top: -35%;
-	}
-	.message-box{
+	.about-img{
 		margin-bottom: 30px;
+		margin-top: 30px;
 	}
-	.filter-button-group button{
-		padding: 12px 27px;
+	.gallery-box ul li{
+		width: 33.33%;
 	}
-	.filter-button-group{
-		text-align: center !important;
+	.top-header{
+		position: relative;
 	}
-	.post-box{
-		margin-bottom: 30px;
+	.lbox-details{
+		display: block;
+		position: relative;
+		width: 100%;
 	}
-	.footer-distributed .footer-left{
-		text-align: center;
+	.countdown #timer div#days, .countdown #timer div#hours, .countdown #timer div#minutes, .countdown #timer div#seconds{
+		position: inherit;
+		margin: 12px 0px;
+	}
+	.lbox-details::before{
+		background: rgba(0,0,0,0.9);
+	}
+	.countdown{
+		height: 188px;
+		border-radius: 0px;
+	}
+	.countdown #timer div{
+		width: 23%;
+		font-size: 24px;
+	}
+	figure.effect-service h2{
+		font-size: 12px;
+	}
+	.left-top{
+		display: inline-block;
+		width: 100%;
+	}
+	.mail-b{
+		float: right;
+	}
+	.right-top{
+		float: left;
 	}
 }
+
+/* mobile or only mobile */
 @media (max-width: 767px) {
-	#mainNav {
-		background-color: #333333;
+	.navbar-brand{
+		margin-left: 10px;
+		margin-right: 10px;
 	}
-	.navbar-dark .navbar-brand{
-		width: 55%;
+	.top-header .navbar .navbar-collapse ul li a{
+		padding: 5px 15px;
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
-		display: none;
-	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
-	}
-	.heading h1{
-		font-size: 28px;
-	}
-	.heading p{
-		font-size: 14px;
-	}
-	.cd-headline.clip span{
-		font-size: 20px;
-	}
-	.section-title h3{
-		font-size: 28px;
-	}
-	.section-title p{
-		font-size: 14px;
-	}
-	#clouds{
-		margin-top: -35%;
-	}
-	.message-box{
-		margin-bottom: 30px;
-	}
-	.filter-button-group button{
-		padding: 12px 27px;
-	}
-	.filter-button-group{
-		text-align: center !important;
-	}
-	.post-box{
-		margin-bottom: 30px;
-	}
-	.footer-distributed .footer-left{
+	.right-top{
+		float: none;
+		margin: 0 auto;
+		display: block;
 		text-align: center;
 	}
-}
-@media only screen and (min-width: 280px) and (max-width: 599px) {
-	#mainNav {
-		background-color: #333333;
+	.left-top{
+		text-align: center;
 	}
-	.navbar-dark .navbar-brand{
-		width: 55%;
+	.left-top a{
+		float: none;
+		padding: 5px 20px;
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
-		display: none;
+	.wel-nots{
+		float: none;
+		margin: 0;
+		text-align: center;
 	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+	.right-top ul li{
+		float: none;
+		display: inline-block;
 	}
-	.heading h1{
-		font-size: 28px;
+	.mail-b{
+		float: none;
 	}
-	.heading p{
-		font-size: 14px;
+	.mail-b a{
+		padding: 5px 20px;
 	}
-	.cd-headline.clip span{
+	.lbox-details h1{
+		font-size: 24px;
+	}
+	.lbox-details h2{
+		font-size: 18px;
+	}
+	.lbox-details p strong{
 		font-size: 20px;
 	}
-	.section-title h3{
-		font-size: 28px;
+	.lbox-details a.btn{
+		display: none;
 	}
-	.section-title p{
+	.title-box h2{
+		font-size: 38px;
+	}
+	.about-main-info h2{
+		font-size: 24px;
+	}
+	.about-img{
+		margin-bottom: 30px;
+	}
+	.main-timeline-box .separline::before{
+		left: 15px !important;
+	}
+	.main-timeline-box .iconBackground{
+		left: 15px !important;
+	}
+	.main-timeline-box .timeline-text-content{
+		margin-left: 0px;
+	}
+	.main-timeline-box .reverse .timeline-text-content{
+		margin-right: 0px;
+	}
+	.main-timeline-box .time-line-date-content{
+		margin-right: 0px;
+	}
+	.main-timeline-box .time-line-date-content p{
+		float: left;
+	}
+	.main-timeline-box .timeline-element{
+		padding: 0px 15px;
+	}
+
+	.top-header{
+		position: relative;
+	}
+	.lbox-details{
+		position: relative;
+		width: 100%;
+		padding: 5% 0%;
+	}
+	.about-m{
+		margin-top: 30px;
+	}
+	.countdown #timer div#days, .countdown #timer div#hours, .countdown #timer div#minutes, .countdown #timer div#seconds{
+		position: inherit;
+		margin: 12px 0px;
+	}
+	.lbox-details::before{
+		background: rgba(0,0,0,0.9);
+	}
+	.countdown{
+		height: 188px;
+		border-radius: 0px;
+	}
+	.countdown #timer div{
+		width: 23%;
+		font-size: 24px;
+	}
+	.about-m{
+		margin-bottom: 30px;
+	}
+	.timeLine .row .item{
+		margin-bottom: 30px;
+	}
+	figure.effect-service h2{
 		font-size: 14px;
 	}
-	#clouds{
-		margin-top: -35%;
-	}
-	.message-box{
-		margin-bottom: 30px;
-	}
 	.filter-button-group button{
-		padding: 12px 27px;
+		margin-bottom: 5px;
 	}
-	.filter-button-group{
-		text-align: center !important;
-	}
-	.post-box{
+	.well-block{
 		margin-bottom: 30px;
 	}
-	.footer-distributed .footer-left{
-		text-align: center;
+	.well-block .well-title h2{
+		font-size: 24px;
+	}
+	.blog-inner a{
+		padding: 10px 6px;
+	}
+	.cont-line{
+		
 	}
 	
 }
